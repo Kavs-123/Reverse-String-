@@ -1,0 +1,23 @@
+2.     ****       Reverse a String     ****
+You are given a string s. You need to reverse the string.
+
+Example 1:
+Input:
+s = Geeks
+Output: skeeG
+
+Example 2:
+Input:
+s = for
+Output: rof
+
+_______________________________________________________-
+CODE-
+public static String reverseWord(String str)
+    {
+          
+         StringBuilder s= new StringBuilder();
+         s.append(str);
+         s=s.reverse();
+         return s.toString();
+}
